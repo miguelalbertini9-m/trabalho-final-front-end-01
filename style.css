@@ -1,0 +1,75 @@
+/* Configuração global da fonte (Questão 16) */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal - cor e alinhamento (Questão 17) */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Títulos h2 e h3 agrupados (Questão 18) */
+h2, h3 {
+    color: darkgreen;
+}
+
+/* Classe de destaque (Questão 19) */
+.destaque {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Fundo da seção Sobre usando ID (Questão 20) */
+#sobre {
+    background-color: lightgray;
+}
+
+/* Tamanho da imagem e alinhamento flutuante (Questões 21 e 24) */
+figure img {
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Espaçamento interno do main (Questão 22) */
+main {
+    padding: 20px;
+}
+
+/* Margem externa das seções e centralização (Questão 23) */
+section {
+    margin: 20px auto;
+}
+
+/* Tabela completa (Questão 25) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Menu de navegação (Questão 26) */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Rodapé (Questão 27) */
+footer {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}
