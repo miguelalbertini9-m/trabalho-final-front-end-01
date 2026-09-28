@@ -1,0 +1,142 @@
+/* Seletor Universal e Reset de margens */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor de Elemento */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f3f5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Seletor Agrupado */
+h1, h2, h3, h4 {
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+/* Cabeçalho e Rodapé */
+header, footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #0044cc;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #aaccff;
+}
+
+/* Seletor de ID - Configurações das seções principais */
+#tomorrowland-2027, #stb-2027, #ultimas-edicoes {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#ultimas-edicoes {
+    background-color: #e9ecef;
+}
+
+/* Configuração de imagens e propriedades de dimensão */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Configuração de Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #cccccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #0044cc;
+    color: #ffffff;
+}
+
+/* Listas ordenadas e não ordenadas */
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+/* Seletor de Classe */
+.destaque {
+    color: #0044cc;
+    text-transform: uppercase;
+}
+
+/* Media Query: Desenvolvimento Responsivo para Celulares */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    table, th, td {
+        font-size: 0.85rem;
+    }
+    
+    header, footer {
+        padding: 20px 10px;
+    }
+    
+    #tomorrowland-2027, #stb-2027, #ultimas-edicoes {
+        margin: 15px;
+        padding: 20px;
+    }
+}
